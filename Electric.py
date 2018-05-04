@@ -211,7 +211,7 @@ def resove_enter_parameters(parameters):
         raise Exception("""
         参数不匹配! 
         参数格式：上个月电费度数文件，这个月电费度数文件，这个月电费金额
-        例子：bills/2018-01.csv, bills/2018-02.csv, bills/2018-02fee.csv
+        例子：degrees/2018-01.csv, degrees/2018-02.csv, bills/2018-02fee.csv
         """)
     else:
         return parameters[1:]
